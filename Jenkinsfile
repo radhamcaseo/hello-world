@@ -25,7 +25,7 @@ pipeline {
         stage ('Push') {
             steps {
               script {
-                         echo 'pushing now.....'
+                         echo 'push now.....'
                         sh 'docker push -t charlesparasa/go-hello-world:v1 .'
                       }
                    }
